@@ -1,4 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a98a550-863e-4a50-98a2-d439cec3b86b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/zoom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/stream.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up/[[...sign-up]]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/(home)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/(home)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/(home)/personal-room/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/(home)/previous/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/(home)/recordings/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/(home)/upcoming/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/meeting/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Alert.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CallList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/EndCallButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/HomeCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MeetingCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MeetingModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MeetingRoom.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MeetingSetup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MeetingTypeList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MobileNav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/use-toast.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useGetCallById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useGetCalls.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/providers/StreamClientProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/Home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/Video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/add-meeting.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/add-personal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/call-ended.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/hamburger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/join-meeting.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/loading-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/previous.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/recordings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/schedule.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/three-dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/upcoming.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/yoom-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hero-background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2ssgkAZun8wF3E6hwDxEeUkStoU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Dell/Desktop/next/zoom",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\Dell\\Desktop\\next\\zoom\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\next\zoom" />
+      <recent name="C:\Users\Dell\Desktop\next\zoom\app\(root)\(home)" />
+      <recent name="C:\Users\Dell\Desktop\next\zoom\components\ui" />
+      <recent name="C:\Users\Dell\Desktop\next\zoom\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\next\zoom\app\(root)" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a98a550-863e-4a50-98a2-d439cec3b86b" name="Changes" comment="" />
+      <created>1739249838220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739249838220</updated>
+      <workItem from="1739249848528" duration="20159000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>
